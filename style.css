@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9BBEC8;
+}
+
+.row {
+    background-color: #DDF2FD;
+    border-radius: 10px;
+}
+
+#searchSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#leftSideOfProfileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilePicture {
+    border-radius: 50%;
+}
+
+.lastSearchesTop {
+    display: flex;
+    flex-direction: row;
+}
+
+#bottomSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+}
