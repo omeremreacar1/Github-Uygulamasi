@@ -38,9 +38,13 @@ body {
 }
 
 @media (max-width: 576px) {
-    #logo {
+    #topSection div {
         display: flex;
         justify-content: center;
+    }
+
+    #topSection h1 {
+        font-size: 15px;
     }
 
     .container {
@@ -49,5 +53,17 @@ body {
 
     .table {
         font-size: 12px;
+    }
+
+    #bottomSection h3 {
+        font-size: 15px;
+    }
+
+    .lastSearchesTop h3 {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 10px;
     }
 }
